@@ -17,7 +17,7 @@
 #firstname{
     font-size: 30px;
  font-family: Arial, Helvetica, sans-serif;
- padding-left: 20px;
+ padding-left: 50px;
 }
 #lastname{
     font-size: 30px;
@@ -27,6 +27,86 @@
 }
 #nav-pages{
     height: 100%;
-    width:  75%;
-    background-color: aqua;
+    width:  70%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+#page{
+   list-style: none;  
+   display: flex;
+   gap: 50px;
+   font-family:"poppins",sans-serif;
+   font-weight:600;
+   
+}
+#contact{
+    background-color: #21b15a;
+    border: none;
+    color: white;
+    height: 30px;
+    width: 100px;
+    font-family:"poppins",sans-serif;
+   font-weight:600;
+   border-radius: 6px;
+   margin-left: 15px;
+   font-size: 14px;
+}
+#mytext{
+    height: 400px;
+    width: 400px;
+   /* background-color: gray; */
+    margin-top: 7%;
+    margin-left: 50px;
+     font-family: Arial, Helvetica, sans-serif;
+}
+#hello{
+font-size: 30px;
+padding-top:10%;
+}
+#dev{
+font-size: 56px;
+}
+#role{
+    color:#21b15a;
+    font-size: 42px;
+   
+}
+#about-me{
+color: rgb(49, 49, 49);
+
+}
+#Resume{
+
+ background-color: #21b15a;
+    border: none;
+    color: white;
+    height: 40px;
+    width: 150px;
+    font-family:Arial, Helvetica, sans-serif;
+   font-weight:600;
+   border-radius: 6px;
+   margin-top: 35px;
+   font-size: 14px;
+
+}
+#main{
+    display: flex;
+}
+#image{
+    height: 400px;
+    width: 400px;
+    background-color: #21b15a;
+    margin-top: 7%;
+    margin-left: 32%;
+    background-image: url('vedant.png');
+    background-size: cover;
+    border-radius: 50%;
+   
+}
+img{
+    height: 400px;
 }
