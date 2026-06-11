@@ -2,6 +2,7 @@ const roles = [
     "Python Developer",
     "Graphic Designer",
     "UI/UX Designer"
+    
 ];
 
 let roleIndex = 0;
