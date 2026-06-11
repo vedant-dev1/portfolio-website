@@ -110,3 +110,107 @@ color: rgb(49, 49, 49);
 img{
     height: 400px;
 }
+#about{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+  
+}
+#about-text{
+    height: 40px;
+    width: 100%;
+    
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #21b15a;
+    text-decoration: underline black;
+    
+}
+.my-image1{
+    background-color: rgb(180, 11, 11);
+    width: 95%;
+    height: 90%;
+    margin-left: 2.5%;
+    background-image: url('vedantdev.jpg');
+    background-size: cover;
+    position: relative;
+    
+}
+.my-image1::before{
+    content: "";
+    position: absolute;
+    inset:0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+
+}
+.my-image,.mydev{
+    color: rgb(255, 255, 255);
+    position: relative;
+    z-index: 2;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 6%;
+    padding-left: 3%;
+}
+.my-image,.about-data{
+        color: rgb(255, 255, 255);
+    position: relative;
+    z-index: 2;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 20%;
+}
+#buttons{
+    background-color:#ffffff;
+    height: 46px;
+    z-index: 2;
+    position: relative;
+    width: 210px;
+    margin-left: 3%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px green;
+
+}
+.logo{
+    height: 35px;
+    width: 35px;
+margin-top: 4px;
+    border-radius: 50%;
+  
+   
+    
+}
+.fa-linkedin{
+font-size: 32px;
+}
+.fa-square-github{
+    font-size: 32px;
+}
+.fa-square-behance{
+ font-size: 32px;
+
+}
+.fa-square-behance:hover{
+    box-shadow: 1px 1px 10px rgb(0, 0, 0);
+}
+.fa-square-github:hover{
+box-shadow: 1px 1px 10px rgb(0, 0, 0);
+}
+.fa-linkedin:hover{
+box-shadow: 1px 1px 10px rgb(0, 0, 0);
+}
+.my-image,.mydev:hover{
+    color: rgb(151, 151, 151);
+}
+.my-image,.about-data:hover{
+    text-decoration:underline rgb(190, 1, 1);
+}
