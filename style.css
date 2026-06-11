@@ -1,216 +1,209 @@
-*{
-    margin: 0%;
-    padding: 0%;
+* {
+  margin: 0%;
+  padding: 0%;
 }
-#home{
-    width: 100%;
-    height: 100vh;
-    background-color: #d7f5dd;
+#home {
+  width: 100%;
+  height: 100vh;
+  background-color: #d7f5dd;
 }
-#navbar{
-    width: 100%;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    
+#navbar {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
 }
-#firstname{
-    font-size: 30px;
- font-family: Arial, Helvetica, sans-serif;
- padding-left: 50px;
+#firstname {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 50px;
 }
-#lastname{
-    font-size: 30px;
-    color: #21b15a;
-     font-family: Arial, Helvetica, sans-serif;
-   
+#lastname {
+  font-size: 30px;
+  color: #21b15a;
+  font-family: Arial, Helvetica, sans-serif;
 }
-#nav-pages{
-    height: 100%;
-    width:  70%;
-   
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   
-    
-}
-#page{
-   list-style: none;  
-   display: flex;
-   gap: 50px;
-   font-family:"poppins",sans-serif;
-   font-weight:600;
-   
-}
-#contact{
-    background-color: #21b15a;
-    border: none;
-    color: white;
-    height: 30px;
-    width: 100px;
-    font-family:"poppins",sans-serif;
-   font-weight:600;
-   border-radius: 6px;
-   margin-left: 15px;
-   font-size: 14px;
-}
-#mytext{
-    height: 400px;
-    width: 400px;
-   /* background-color: gray; */
-    margin-top: 7%;
-    margin-left: 50px;
-     font-family: Arial, Helvetica, sans-serif;
-}
-#hello{
-font-size: 30px;
-padding-top:10%;
-}
-#dev{
-font-size: 56px;
-}
-#role{
-    color:#21b15a;
-    font-size: 42px;
-   
-}
-#about-me{
-color: rgb(49, 49, 49);
+#nav-pages {
+  height: 100%;
+  width: 70%;
 
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-#Resume{
+#page {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  font-family: "poppins", sans-serif;
+  font-weight: 600;
+}
+#contact {
+  background-color: #21b15a;
+  border: none;
+  color: white;
+  height: 30px;
+  width: 100px;
+  font-family: "poppins", sans-serif;
+  font-weight: 600;
+  border-radius: 6px;
+  margin-left: 15px;
+  font-size: 14px;
+}
+#mytext {
+  height: 400px;
+  width: 400px;
+  /* background-color: gray; */
+  margin-top: 7%;
+  margin-left: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#hello {
+  font-size: 30px;
+  padding-top: 10%;
+}
+#dev {
+  font-size: 56px;
+}
+#role {
+  color: #21b15a;
+  font-size: 42px;
+}
+#about-me {
+  color: rgb(49, 49, 49);
+}
+#Resume {
+  background-color: #21b15a;
+  border: none;
+  color: white;
+  height: 40px;
+  width: 170px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  border-radius: 6px;
+  margin-top: 35px;
+  font-size: 14px;
+}
+#main {
+  display: flex;
+}
+#image {
+  height: 400px;
+  width: 400px;
+  background-color: #21b15a;
+  margin-top: 7%;
+  margin-left: 32%;
+  background-image: url("vedant.png");
+  background-size: cover;
+  border-radius: 50%;
+}
+img {
+  height: 400px;
+}
+#about {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+}
+#about-text {
+  height: 50px;
+  width: 100%;
 
- background-color: #21b15a;
-    border: none;
-    color: white;
-    height: 40px;
-    width: 170px;
-    font-family:Arial, Helvetica, sans-serif;
-   font-weight:600;
-   border-radius: 6px;
-   margin-top: 35px;
-   font-size: 14px;
-
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  color: #21b15a;
+  text-decoration: underline black;
+  font-weight: 600;
 }
-#main{
-    display: flex;
+.my-image1 {
+  background-color: rgb(180, 11, 11);
+  width: 95%;
+  height: 90%;
+  margin-left: 2.5%;
+  background-color: #21b15a;
+  position: relative;
 }
-#image{
-    height: 400px;
-    width: 400px;
-    background-color: #21b15a;
-    margin-top: 7%;
-    margin-left: 32%;
-    background-image: url('vedant.png');
-    background-size: cover;
-    border-radius: 50%;
-   
+.my-image1::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
 }
-img{
-    height: 400px;
+.my-image,
+.mydev {
+  color: rgb(255, 255, 255);
+  position: relative;
+  z-index: 2;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 6%;
+  padding-left: 3%;
 }
-#about{
-    width: 100%;
-    height: 100vh;
-    background-color: rgb(255, 255, 255);
-  
+.my-image,
+.about-data {
+  color: rgb(255, 255, 255);
+  position: relative;
+  z-index: 2;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 3%;
+  padding-left: 3%;
+  padding-right: 20%;
 }
-#about-text{
-    height: 40px;
-    width: 100%;
-    
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    color: #21b15a;
-    text-decoration: underline black;
-    
+#buttons {
+  background-color: #ffffff;
+  height: 46px;
+  z-index: 2;
+  position: relative;
+  width: 210px;
+  margin-left: 3%;
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 20px rgb(109, 109, 109);
 }
-.my-image1{
-    background-color: rgb(180, 11, 11);
-    width: 95%;
-    height: 90%;
-    margin-left: 2.5%;
-    background-image: url('vedantdev.jpg');
-    background-size: cover;
-    position: relative;
-    
+.logo {
+  height: 35px;
+  width: 35px;
+  margin-top: 4px;
+  border-radius: 50%;
 }
-.my-image1::before{
-    content: "";
-    position: absolute;
-    inset:0;
-    background: rgba(0, 0, 0, 0.6);
-    z-index: 1;
-
+.fa-linkedin {
+  font-size: 32px;
+  cursor: pointer;
 }
-.my-image,.mydev{
-    color: rgb(255, 255, 255);
-    position: relative;
-    z-index: 2;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-top: 6%;
-    padding-left: 3%;
+.fa-square-github {
+  font-size: 32px;
+  cursor: pointer;
 }
-.my-image,.about-data{
-        color: rgb(255, 255, 255);
-    position: relative;
-    z-index: 2;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-top: 3%;
-    padding-left: 3%;
-    padding-right: 20%;
+.fa-square-behance {
+  font-size: 32px;
+  cursor: pointer;
 }
-#buttons{
-    background-color:#ffffff;
-    height: 46px;
-    z-index: 2;
-    position: relative;
-    width: 210px;
-    margin-left: 3%;
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    border-radius: 20px;
-    box-shadow: 1px 1px 10px green;
-
+.fa-square-behance:hover {
+  box-shadow: 1px 1px 10px rgb(0, 0, 0);
 }
-.logo{
-    height: 35px;
-    width: 35px;
-margin-top: 4px;
-    border-radius: 50%;
-  
-   
-    
+.fa-square-github:hover {
+  box-shadow: 1px 1px 10px rgb(0, 0, 0);
 }
-.fa-linkedin{
-font-size: 32px;
+.fa-linkedin:hover {
+  box-shadow: 1px 1px 10px rgb(0, 0, 0);
 }
-.fa-square-github{
-    font-size: 32px;
+.my-image,
+.mydev:hover {
+  color: rgb(151, 151, 151);
 }
-.fa-square-behance{
- font-size: 32px;
-
+.my-image,
+.about-data:hover {
+  text-decoration: underline rgb(151, 151, 151);
 }
-.fa-square-behance:hover{
-    box-shadow: 1px 1px 10px rgb(0, 0, 0);
-}
-.fa-square-github:hover{
-box-shadow: 1px 1px 10px rgb(0, 0, 0);
-}
-.fa-linkedin:hover{
-box-shadow: 1px 1px 10px rgb(0, 0, 0);
-}
-.my-image,.mydev:hover{
-    color: rgb(151, 151, 151);
-}
-.my-image,.about-data:hover{
-    text-decoration:underline rgb(190, 1, 1);
+#skills {
+  height: 100vh;
+  width: 100%;
+  background-color: bisque;
 }
