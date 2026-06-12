@@ -117,6 +117,7 @@ img {
   color: #21b15a;
   text-decoration: underline black;
   font-weight: 600;
+ 
 }
 .my-image1 {
   background-color: rgb(180, 11, 11);
@@ -202,8 +203,246 @@ img {
 .about-data:hover {
   text-decoration: underline rgb(151, 151, 151);
 }
-#skills {
+
+.technical-data{
+  /* background-color: rgb(233, 129, 2); */
+  height: 40%;
+ 
+  
+}
+.skilltext{
+  display: flex;
+  height: 40px;
+  /* background-color: rgb(226, 13, 13); */
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  padding-left: 25px;
+  font-size: 20px;
+  font-size: 25px;
+  margin-top: 20px;
+
+}
+#main-data{
+  height: 172px;
+  width:140px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  border-radius: 15px;
+  flex-direction: column;
+  margin-left: 25px;
+  box-shadow: 1px 1px 10px rgb(124, 124, 124);
+  margin-top: 20px;
+}
+.skill-logo{
+  height: 80px;
+  width: 80px;
+  /* background-color: azure; */
+  border-radius: 50%;
+ 
+  background-size: cover;
+
+  margin-top: 20px;
+
+}
+
+#skill-show{
+  text-align: center;
+  margin-top: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:bold ;
+  
+}
+.elements{
+  display: flex;
+  margin-left: 20px;
+  margin-top: 20px;
+
+
+
+}
+.html-logo{
+   background-image: url('skills/html-svgrepo-com.svg');
+}
+.css-logo{
+   background-image: url('skills/css-3-svgrepo-com.svg');
+}
+.js-logo{
+   background-image: url('skills/javascript-svgrepo-com.svg');
+}
+.python-logo{
+   background-image: url('skills/python.png');
+}
+.flask-logo{
+   background-image: url('skills/Flask.png');
+}
+.django-logo{
+   background-image: url('skills/django.png');
+}
+.mysql-logo{
+   background-image: url('skills/mysql-logo-svgrepo-com.svg');
+}
+.github-logo{
+   background-image: url('skills/github-142-svgrepo-com.svg');
+}
+.html-logo{
+   background-image: url('skills/html-svgrepo-com.svg');
+}
+.technical-data{
+    margin-bottom: 30px;
+}
+
+.elements{
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+}
+.photoshop-logo{
+  background-image:url('skills/photoshop-svgrepo-com.svg');
+  
+}
+.illustrator-logo{
+  background-image:url('skills/adobe-illustrator-cc-logo-svgrepo-com.svg');
+}
+.canva-logo{
+  background-image:url('skills/canva-svgrepo-com.svg');
+}
+.figma-logo{
+  background-image:url('skills/figma-svgrepo-com.svg');
+}
+.adobexd-logo{
+  background-image:url('skills/adobe-xd-logo-svgrepo-com.svg');
+}
+.main-data{
+    height:172px;
+    width:140px;
+    background:white;
+    border-radius:15px;
+    box-shadow:1px 1px 10px rgb(124,124,124);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.skill-show{
+    margin-top:15px;
+    font-weight:bold;
+}
+
+#skills{
+     width: 100%;
+  height: 92vh;
+    background-color: bisque;
+    padding-bottom: 50px;
+}
+#projects-box{
+  width: 100%;
+  height: 100vh;
+
+}
+#project-outer{
+
+  width: 100%;
+  height: 92%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+background-color: rgb(241, 241, 241);
+
+}
+#project-inner{
+
+    width: 1200px;
+  height:350px;
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+
+  
+}
+#project-inner1{
+ 
+  width: 22%;
+  height:100%;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px rgb(0, 0, 0);
+  background-color: white;
+ 
+}
+#project-inner2{
+ 
+  width: 22%;
+  height:100%;
+    border-radius: 10px;
+      box-shadow: 1px 1px 10px rgb(102, 100, 100);
+        background-color: white;
+          box-shadow: 1px 1px 10px rgb(102, 100, 100);
+}
+.image-pro{
+  width: 100%;
+  height: 60%;
+  background-color: bisque;
+}
+.weather-img{
+  background-image: url('skills/Capture1.JPG');
+  background-size: cover;
+    border-radius: 10px;
+}
+.travel-img{
+  background-image: url('skills/saved.JPG');
+  background-size: cover;
+    border-radius: 10px;
+}
+.inner-main{
+
+margin-top: 10px;
+margin-left: 8px;
+}
+.inner-skills{
+
+margin-left: 8px;
+margin-top: 10px;
+}
+.link{
+  margin-left: 8px;
+margin-top: 15px;
+height: 30px;
+width: 75px;
+
+background-color: rgb(91, 29, 163);
+border: none;
+border-radius: 5px;
+color: white;
+}
+.inner-main{
+  font-family: Arial, Helvetica, sans-serif;
+}
+#contact-page{
+  background-color: #6004ac;
   height: 100vh;
   width: 100%;
-  background-color: bisque;
+}
+#contact-inner{
+  width: 100%;
+  height: 93vh;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+#right-form{
+height: 500px;
+width: 500px;
+background-color: aqua;
+}
+#left-text{
+height: 500px;
+width: 500px;
+background-color: rgb(40, 44, 44);
+}
+#contact-text{
+  color: bisque;
+  font-family:cursive;
 }
