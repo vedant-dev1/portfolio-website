@@ -12,6 +12,9 @@
   height: 60px;
   display: flex;
   align-items: center;
+  /* position: fixed;
+    background-color: #d7f5dd;
+    z-index: 3; */
 }
 #firstname {
   font-size: 30px;
@@ -419,14 +422,14 @@ color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
 #contact-page{
-  background-color: #6004ac;
+
   height: 100vh;
   width: 100%;
 }
 #contact-inner{
   width: 100%;
   height: 93vh;
-  background-color: black;
+ 
   display: flex;
   align-items: center;
   justify-content: center;
@@ -440,9 +443,40 @@ background-color: aqua;
 #left-text{
 height: 500px;
 width: 500px;
-background-color: rgb(40, 44, 44);
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
 #contact-text{
-  color: bisque;
+  color: rgb(209, 120, 12);
   font-family:cursive;
+}
+#contact-text{
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 40px;
+}
+#my-text{
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  margin-top: 10px;
+  color: rgb(129, 129, 129);
+}
+#head-form{
+  background-color: #21b15a;
+  height: 45px;
+  width: 100%;
+  font-family:'Times New Roman', Times, serif;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+}
+#body-form{
+  height: 92%;
+  width: 100%;
+  background-color: grey;
 }

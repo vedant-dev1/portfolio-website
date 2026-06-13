@@ -242,8 +242,21 @@ I believe in continuous learning and regularly work on personal projects to impr
    Contact Me
   </div>
   <div id="contact-inner">
-<div id="left-text"><h1 id="contact-text">Get In touch <i class="fa-solid fa-user"></i></h1></div>
-<div id="right-form"></div>
+<div id="left-text"><h1 id="contact-text">Get In touch <i class="fa-regular fa-handshake" style="color: #006127;"></i></h1>
+ <p id="my-text">Let’s build something great together—get in touch today.</p>
+</div>
+<div id="right-form">
+  <div id="head-form">Fill Form</div>
+
+  <div id="body-form">
+    <form action="/script" method="post">
+    <input type="text" id="name" required placeholder="Enter your name" name="username">
+    <input type="email" id="email" required placeholder="Enter your email" name="email">
+   <textarea  id="message" placeholder="Message" required name="message"></textarea>
+   <button type="submit" id="submit">Send</button>
+   </form>
+  </div>
+</div>
   </div>
   </div>
     <script src="script.js"></script>
